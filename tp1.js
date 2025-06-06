@@ -32,7 +32,11 @@ colores[1] = 'gris'
 console.log(colores);
 
 //9
-for (let i = 0; i < 5; i++) {
-   console.log(i)
+for (let i = 0; i < colores.length; i++) {
+   console.log(colores[i])
     
 }
+
+//10
+let nuevosColores = prompt('Ingresa 3 colores')
+console.log(nuevosColores);
