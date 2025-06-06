@@ -32,3 +32,4 @@ for(let i = 0; i < numeros.lenght; i++){
 let palabrasGuardadas
 let palabrasUsuario = prompt('Escribe 5 palabras')
 palabrasGuardadas.push(palabrasUsuario)
+console.log(palabrasGuardadas)
